@@ -1,0 +1,191 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+ background-color: #3F5C9A;
+ width: 100%;
+ height: 80px;
+}
+
+#header-align {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+#logo {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yk/r/JKB10tB7sub.png");
+  display: inline-block;
+  width: 170px;
+  height: 34px;
+}
+
+@media (max-width: 640px) {
+  #logo {
+    display: none;
+  }
+}
+
+#login {
+  font-family: Arial;
+  font-size: 13px;
+  color: white;
+  margin-top: 10px;
+}
+
+#login p {
+  margin-left: 10px;
+}
+
+.inputtxt {
+  width: 150px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+#btn {
+  background-color: #2980b9;
+  color: white;
+  font-family: Arial;
+  padding: 05px;
+  border: none;
+  border-radius: 03px;
+  margin-left: 05px;
+}
+
+.login a {
+  color: white;
+  text-decoration: none;
+}
+
+.login a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  background-color: #e8eaee;
+}
+
+#nav-container {
+  width: 30%;
+}
+
+#logo-container {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+#logo-img {
+  background-image: url(https://scontent.fiev2-1.fna.fbcdn.net/v/t1.0-1/p320x320/31562081_10157324683366729_5005221974700457984_n.png?_nc_cat=1&_nc_ht=scontent.fiev2-1.fna&oh=0d49b66e0f580f56993f1b40d6e91709&oe=5D09F012);
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  background-size: contain;
+  border-radius: 50%;
+  margin: 15px;
+  border: 2px solid white;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  width: 160px;
+  float: right;
+}
+
+li {
+  display: block;
+  margin: 10px 05px;
+  color: black;
+  list-style-type: none;
+}
+
+li:hover {
+  background-color: #ffeeff;
+}
+
+li > a {
+  text-decoration: none;
+  color: black;
+  text-decoration: none;
+}
+
+#submit {
+  font-size: 11px;
+  background-color: rgb(105, 167, 78);
+  border: 1px solid rgb(59, 110, 34);
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 130px;
+  height: 25px;
+  text-align: center;
+  font-weight: 700;
+  padding: 2px 10px;
+  text-decoration: none;
+}
+
+#content {
+  width: 50%;
+  padding-left: 20px;
+}
+
+#main-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#articles {
+  width: 50%;
+  margin-top: 10px
+}
+
+video {
+  width: 100%;
+}
+
+article > p {
+  text-indent: 20px;
+  text-align: justify;
+}
+
+#side-menu {
+  width: 40%;
+  margin-top: 10px;
+}
+
+.side-menu-item {
+  background-color: #fff;
+  border: 1px solid #dddfe2;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.item-row {
+  display: flex;
+  margin: 10px 0;
+}
+
+img {
+  margin: 0 10px;
+}
+
+#ii {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/r7RbJnYhj1w.png);
+  background-size: 22px 684px;
+  height: 16px;
+  width: 16px;
+  background-position: 0 -494px;
+}
+
+input {
+  font-size: 14px;
+  border: 0;
+  width: 100%;
+}

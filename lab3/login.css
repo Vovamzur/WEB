@@ -1,0 +1,151 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  background-color: #3F5C9A;
+  width: 100%;
+  height: 12%;
+  font-family: tahoma;
+  border: 1px solid darkblue;
+}
+
+#header-controler {
+  width: 60%;
+  margin: auto;
+  margin-top: 13px;
+  margin-bottom: 20px;
+}
+
+#label {
+  font-size: 40px;
+  left: 180px;
+  color: white;
+  margin-top: 17px;
+}
+
+#submit {
+  display: inline;
+  margin-left: 20px;
+  font-size: 11px;
+  background-color: rgb(105, 167, 78);
+  border: 1px solid rgb(59, 110, 34);
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 130px;
+  height: 25px;
+  text-align: center;
+  font-weight: 700;
+  padding: 02px 10px;
+}
+
+#submit:hover {
+  text-decoration: underline;
+}
+
+main {
+  background-color: #edf0f5;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-container {
+  width: 40%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 600px;
+  height: 270px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logLabel {
+  font-size: 18px;
+  padding: 18px;
+  line-height: 22px;
+}
+
+.input {
+  width: 250px;
+  height: 35px;
+  border: none;
+  border: 1px solid #95a5a6;
+  padding-left: 10px;
+  margin: 0 20px;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.row {
+  color: rgb(54, 88, 153);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  text-decoration-color: rgb(54, 88, 153);
+  width: 150px;
+  display: none;
+  display: inline;
+  text-decoration: none;
+}
+
+.space {
+  visibility: hidden;
+}
+
+#sub {
+  width: 250px;
+  height: 40px;
+  background-color: #3F5C9A;
+  color: white;
+  font-family: Arial;
+  border: none;
+}
+
+footer {
+  color: #737373;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  padding-left: 10px;
+  color: #365899;
+}
+
+a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #365899;
+}
+
+#contentCurve {
+  border-bottom: 1px solid #dddfe2;
+  font-size: 1px;
+  height: 8px;
+  margin-bottom: 8px;
+}
+
+#lic {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 11px;
+}
